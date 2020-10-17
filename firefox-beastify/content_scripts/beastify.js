@@ -35,6 +35,7 @@
 
     /**
      * Listen for messages from the background script.
+     * Message are send from browser.tabs.sendMessage
      * Call "beastify()" or "reset()".
     */
     browser.runtime.onMessage.addListener((message) => {
